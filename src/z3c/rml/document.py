@@ -122,10 +122,9 @@ class IRegisterTTFont(interfaces.IRMLDirectiveSignature):
                      u'be previously registered.'),
         required=True)
 
-    fileName = attr.File(
+    fileName = attr.String(
         title=u'File Name',
-        description=u'File path of the of the TrueType font.',
-        doNotOpen=True,
+        description=u'File name or full path of the TrueType font.',
         required=True)
 
 class RegisterTTFont(directive.RMLDirective):
