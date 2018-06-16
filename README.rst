@@ -2,6 +2,12 @@
 ``z3c.rml`` -- An alternative implementation of RML
 ===================================================
 
+This version requires installation of pydmtx and a special version of ReportLab:
+    https://bitbucket.org/uli-mierendorff/reportlab
+
+
+
+
 This is an alternative implementation of ReportLab's RML PDF generation XML
 format. Like the original implementation, it is based on ReportLab's
 ``reportlab`` library.

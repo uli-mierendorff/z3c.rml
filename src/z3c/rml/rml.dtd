@@ -327,7 +327,7 @@
 <!ATTLIST plugInFlowable function CDATA #REQUIRED>
 
 <!ELEMENT barCodeFlowable>
-<!ATTLIST barCodeFlowable code (codabar|code11|code128|code128auto|ean13|ean5|ean8|ecc200datamatrix|extended39|extended93|fim|i2of5|isbn|msi|postnet|qr|standard39|standard93|upca|usps_4state) #REQUIRED>
+<!ATTLIST barCodeFlowable code (codabar|code11|code128|code128auto|ean13|ean5|ean8|ecc200datamatrix|datamatrix|extended39|extended93|fim|i2of5|isbn|msi|postnet|qr|standard39|standard93|upca|usps_4state) #REQUIRED>
 <!ATTLIST barCodeFlowable width CDATA #IMPLIED>
 <!ATTLIST barCodeFlowable height CDATA #IMPLIED>
 <!ATTLIST barCodeFlowable barStrokeColor CDATA #IMPLIED>
@@ -1146,7 +1146,7 @@
 <!ATTLIST lineMode cap (default|butt|round|square) #IMPLIED>
 
 <!ELEMENT barCode (#PCDATA)>
-<!ATTLIST barCode code (codabar|code11|code128|code128auto|ean13|ean5|ean8|ecc200datamatrix|extended39|extended93|fim|i2of5|isbn|msi|postnet|qr|standard39|standard93|upca|usps_4state) #REQUIRED>
+<!ATTLIST barCode code (codabar|code11|code128|code128auto|ean13|ean5|ean8|ecc200datamatrix|datamatrix|extended39|extended93|fim|i2of5|isbn|msi|postnet|qr|standard39|standard93|upca|usps_4state) #REQUIRED>
 <!ATTLIST barCode width CDATA #IMPLIED>
 <!ATTLIST barCode height CDATA #IMPLIED>
 <!ATTLIST barCode barStrokeColor CDATA #IMPLIED>
